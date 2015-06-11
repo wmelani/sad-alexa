@@ -24,7 +24,7 @@ app.post('/', function(request, response) {
 		      "type": "Simple",
 		      "title": "Sadness",
 		      "content": "So sad"
-		    }
+		    },
 		    "shouldEndSession": true
 		  }
 		};
