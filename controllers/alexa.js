@@ -21,7 +21,7 @@ function alexaGetRequest(req,response,done){
     response.send(obj);
 
 }
-function alexaPostRequest(req,res,done){
+function alexaPostRequest(req,response,done){
     var obj = {
         "version": "1.0",
         "sessionAttributes": {
